@@ -5,7 +5,7 @@ A plugin to simplify deploying Single Page Application using S3 and CloudFront
 ## Installation
 
 1. `npm config set @maksumov:registry https://npm.pkg.github.com/maksumov`
-2. `npm install @maksumov/serverless-single-page-app-plugin`
+2. `npm install serverless-single-page-app-plugin@npm:@maksumov/serverless-single-page-app-plugin`
 
 ## Usage
 
@@ -14,7 +14,7 @@ This is plugin for [serverless](https://www.npmjs.com/package/serverless). Just 
 ```yaml
 plugins:
   - serverless-finch
-  - @maksumov/serverless-single-page-app-plugin
+  - serverless-single-page-app-plugin
 ```
 
 Sources:
