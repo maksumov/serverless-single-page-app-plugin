@@ -1,0 +1,22 @@
+{
+  "name": "@maksumov/serverless-single-page-app-plugin",
+  "version": "1.0.0",
+  "description": "A plugin to simplify deploying Single Page Application using S3 and CloudFront",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serveless",
+    "aws"
+  ],
+  "author": "https://github.com/serverless/examples/blob/master/aws-node-single-page-app-via-cloudfront/serverless-single-page-app-plugin",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/maksumov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maksumov/serverless-single-page-app-plugin.git"
+  }
+}
